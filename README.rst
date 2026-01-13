@@ -63,8 +63,7 @@ Cowrie - это программа для взаимодействия SSH и Te
       * нет выхода в интернет
 
 ```
-
- asfasf
-
+	asfasf
+	fasfasfasfasf
 ```
 
