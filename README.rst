@@ -1,4 +1,4 @@
-Cowrie
+Cowrie Honeypot Lab
 ######
 
 What is Cowrie
@@ -58,32 +58,6 @@ There are currently three ways to install Cowrie: `git clone`, `Docker` and `pip
 `git clone` is recommended if you want to change the configuration of the honeypot.
 `pip` mode is still under development.
 
-Docker
-*****************************************
-
-`Docker images <https://hub.docker.com/repository/docker/cowrie/cowrie>`_ are available on Docker Hub.
-
-* To get started quickly and give Cowrie a try, run::
-
-    $ docker run -p 2222:2222 cowrie/cowrie:latest
-    $ ssh -p 2222 root@localhost
-
-* To just make it locally, run::
-
-    $ make docker-build
-
-PyPI
-*****************************************
-
-`Cowrie is available on PyPI <https://pypi.org/project/cowrie>`_, to install run::
-
-    $ pip install cowrie
-    $ twistd cowrie
-
-When installed this way, it will behave differently from having a full directory download.
-
-This is still in beta and may not work as expected, `git clone` or `docker` methods are preferred.
-
 Requirements
 *****************************************
 
@@ -115,16 +89,3 @@ Commands
 * `createfs` - create your own fake filesystem
 * `playlog` - utility to replay session logs
 * `asciinema` - turn Cowrie logs into asciinema files
-
-Contributors
-***************
-
-Many people have contributed to Cowrie over the years. Special thanks to:
-
-* Upi Tamminen (desaster) for all his work developing Kippo on which Cowrie was based
-* Dave Germiquet (davegermiquet) for TFTP support, unit tests, new process handling
-* Olivier Bilodeau (obilodeau) for Telnet support
-* Ivan Korolev (fe7ch) for many improvements over the years.
-* Florian Pelgrim (craneworks) for his work on code cleanup and Docker.
-* Guilherme Borges (sgtpepperpt) for SSH and telnet proxy (GSoC 2019)
-* And many many others.
